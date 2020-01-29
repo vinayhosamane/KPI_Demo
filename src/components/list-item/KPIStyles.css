@@ -1,0 +1,61 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: stretch;
+  width: 100%;
+  margin-bottom: 0px;
+}
+
+.nameContainer {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  height: auto;
+}
+
+.valueContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding-right: 10px;
+  margin: 0px;
+  align-items: flex-end;
+}
+
+.KPI_Title {
+  color: black;
+  padding: 0px;
+  margin-top: 16px;
+  margin-bottom: 0px;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.KPI_SubTitle {
+  color: black;
+  padding: 0px;
+  margin-bottom: 0px;
+  margin-top: 4px;
+  font-size: 13px;
+  color: gray;
+  font-weight: bolder;
+}
+
+.KPINumber {
+  color: darkgreen;
+  align-self: flex-end;
+  margin-bottom: auto;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.KPIDelta {
+  color: black;
+  padding: 0px;
+  margin-bottom: 0px;
+  margin-top: 4px;
+  font-size: 13px;
+  color: gray;
+  font-weight: bolder;
+}
